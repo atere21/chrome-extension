@@ -1,0 +1,166 @@
+/* src/popup.css */
+
+
+body {
+    width: 310px;
+    height: 490px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background: white;
+    box-shadow: 0px 4px 20px rgba(230, 223, 223, 0.925);
+    border-radius: 24px;
+   
+    display: inline-flex;
+    
+  }
+
+  /* src/popup.css */
+
+
+.content {
+  padding: 10px;
+  min-width: 300px;
+
+}
+
+.container2{
+  width: 252px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px; 
+  display: inline-flex;
+}
+
+.container4{
+  
+  justify-content: center;
+   align-items: center; 
+   padding: 20px;
+   gap: 78px;
+  display: inline-flex
+}
+
+.frame46{
+  width: 252px;
+   height: 48px; 
+   padding-top: 12px;
+    padding-bottom: 12px;
+     padding-left: 16px;
+    padding-right: 12px;
+     gap: 22px;
+   
+      border-radius: 12px;
+      border: 1px #100A42 solid;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-flex;
+}
+
+.frame37{
+  width: 85px;
+   height: 24px;
+    justify-content: flex-start;
+    align-items: center;
+     gap: 8px;
+    display: flex;
+  
+}
+
+.frame42{
+  width:252px ; 
+  height: 48px; 
+  padding-top: 12px; 
+   padding-left: 16px;
+   margin-top:30px !important;
+    padding-right: 12px;
+     border-radius: 12px;
+      border: 1px #100A42 solid;
+       justify-content: flex-start;
+        align-items: center;
+        
+          display: inline-flex;
+}
+
+.toggle{
+ 
+    margin-left: 140px;
+}
+
+.full {
+  font-weight: 50;
+  color: gray;
+  size: 14px;
+}
+
+.firstline{
+  width: 252px;
+  height: 28px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+}
+
+.settings{
+    width:20px;
+    height: 20px;
+    position: relative;
+}
+
+.button_cont {
+  width: 252px;
+   height: 51px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  display: inline-flex;
+  padding: 10px;
+  border: none;
+  
+
+}
+
+.button_cont  button{
+  align-self: stretch;
+   height: 51px;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+   gap: 12px;
+   display: flex;
+   cursor: pointer;
+
+}
+.popup {
+  text-align: center;
+  padding: 20px;
+  background-color: #120B48;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+  .firstline{
+    flex: auto;
+  }
+
+  .button_cont  button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background:#100A42;
+    color: white;
+
+  }
+  .popup {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
